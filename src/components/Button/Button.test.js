@@ -11,7 +11,7 @@ describe('Button',()=>{
         expect(wrapper.props().onClick).toHaveBeenCalled();
     })
     it('should render a button',()=>{
-        const tree=renderer.create(<Button/>).toJSON();
+        const tree=renderer.create(<Button />).toJSON();
         expect(tree).toMatchSnapshot();
     })
 });

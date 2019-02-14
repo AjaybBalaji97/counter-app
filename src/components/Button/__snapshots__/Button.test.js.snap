@@ -4,5 +4,7 @@ exports[`Button should render a button 1`] = `
 <button
   id="button"
   type="button"
-/>
+>
+  DEFAULT
+</button>
 `;
